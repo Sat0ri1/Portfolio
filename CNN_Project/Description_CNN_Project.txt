@@ -1,1 +1,10 @@
+This project's goal is to create and teach the convolutional neural network to recognize animals species
+First goal is my Master's degree thesis: "Use of convolutional neural networks in recognizing Theraphosidae species."
 
+First version will be teached to recognize mainly females of as many Tarantula species as can be recognized by a picture of a top side of a spider
+
+Datasets used for training and testing won't be available here, due to copyright, as they will contain many pictures that I am only allowed to use due to creative commons. 
+
+Teaching will take place with use of CUDA, due to boosted efficiency in AI learning with GPU
+
+Right now i am on the stage of collecting the data, initial model was created with use of Tensorflow and it will be updated every time any significant progress in the teaching phase will be made. 
