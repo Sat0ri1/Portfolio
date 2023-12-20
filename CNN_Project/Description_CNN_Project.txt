@@ -3,8 +3,10 @@ First goal is my Master's degree thesis: "Use of convolutional neural networks i
 
 First version will be teached to recognize mainly females of as many Tarantula species as can be recognized by a picture of a top side of a spider
 
+Pictures choices are based on quality and position of the spider on a picture. In general there should be whole spider visible in every picture and picture should be taken from the top (not literally, because some curves will let me create a model more friendly in use, not requiring a perfect picture to work. I try to get at least 100 pics per species. Amount is not huge, therefore I implemented a little bit more aggresive augmentation. 
+
 Datasets used for training and testing won't be available here, due to copyright, as they will contain many pictures that I am only allowed to use due to creative commons. 
 
-Teaching will take place with use of CUDA, due to boosted efficiency in AI learning with GPU
+Training will take place with use of CUDA, due to boosted efficiency in AI training with GPU.
 
-Right now i am on the stage of collecting the data, initial model was created with use of Tensorflow and it will be updated every time any significant progress in the teaching phase will be made. 
+For now I trained the model for two tarantula species: Poecilotheria metallica and Chilobrachys natanicharum. It looks really promising (model is not overfitted but it's accuracy is approximately 100% and it succesfully recognized 100% of pictures I tested it on after the formal training and testing phase). Therefore, I continue to collect the pictures of other species, aiming for at least 100 of them (final number will depend on amout of pictures available). 
