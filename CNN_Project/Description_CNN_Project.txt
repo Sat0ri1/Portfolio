@@ -1,4 +1,4 @@
-This project's goal is to create and teach the convolutional neural network to recognize animals species
+This project's goal is to create and train the convolutional neural network to recognize animals species
 First goal is my Master's degree thesis: "Use of convolutional neural networks in recognizing Theraphosidae species."
 
 First version will be teached to recognize mainly females of as many Tarantula species as can be recognized by a picture of a top side of a spider
