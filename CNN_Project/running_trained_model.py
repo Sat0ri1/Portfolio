@@ -8,7 +8,7 @@ import numpy as np
 loaded_model = load_model('model.h5')
 
 # Path to the new image
-new_image_path = input("Podaj sciezke do zdjecia: ")
+new_image_path = input("Enter the path to picture: ")
 #C:/Users/pgryg/Desktop/
 
 # Loading and preprocessing the image
