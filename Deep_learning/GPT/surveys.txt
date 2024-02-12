@@ -1,0 +1,2 @@
+set the API key from Open AI as environmental variable either with: setx OPENAI_API_KEY "your-api-key-here"
+or if it does not work with: set OPENAI_API_KEY=your-api-key-here
