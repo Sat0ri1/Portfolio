@@ -1,4 +1,4 @@
 Project blackjack.txt is fully functional game of blackjack from the backend side
-Game allows a player to place a bets and simply save achieved results to sue them in next sessions
+Game allows a player to place a bets and simply save achieved results to use them in next sessions
 You can play from a terminal by typing py blackjack.py in terminal after downloading the file in the file localization or by entering a path to file
 File with save will be created in blackjack.py localization
