@@ -82,3 +82,4 @@ predictions = model.predict(test_generator)
 
 #SAVING
 model.save('model.h5')
+#Flouders <3
