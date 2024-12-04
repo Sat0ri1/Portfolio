@@ -1,0 +1,2 @@
+Medical database built using django and MySQL
+Aothors: Paweł Grygielski, Jakub Maćko
