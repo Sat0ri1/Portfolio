@@ -1,22 +1,5 @@
 #Paweł Grygielski, Jakub Maćko, Aleksandra Horbaczewska
 
-import subprocess
-import sys
-
-# Funkcja do sprawdzenia i zainstalowania brakujących pakietów
-def install_package(package):
-    try:
-        subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-    except subprocess.CalledProcessError:
-        print(f"Błąd przy instalacji pakietu: {package}")
-
-# Lista wymaganych pakietów
-required_packages = ["streamlit", "pandas", "numpy", "matplotlib", "seaborn"]
-
-# Sprawdzanie i instalowanie brakujących pakietów
-for package in required_packages:
-    install_package(package)
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -210,3 +193,4 @@ if uploaded_file is not None:
     OR_results = OR(tabela)
     or_df = pd.DataFrame(OR_results, columns=["Genotyp 1", "Genotyp 2", "Odds Ratio"])
     st.write(or_df)
+
