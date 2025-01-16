@@ -1,3 +1,5 @@
+#Paweł Grygielski, Jakub Maćko, Aleksandra Horbaczewska
+
 import subprocess
 import sys
 
