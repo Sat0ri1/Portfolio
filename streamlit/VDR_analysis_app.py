@@ -172,7 +172,8 @@ if uploaded_file is not None:
 
     # Test Hardy'ego-Weinberga
     st.header("Test Hardy'ego-Weinberga")
-    HWE_results = HWE_control(tabela, allele_table, "Control")
+    grupa = st.radio("Wybierz grupę do analizy:", ["Control", "Cancer"])
+    HWE_results = HWE_control(tabela, allele_table, grupa)
     st.write(HWE_results)
     macierz, Chi_square_HWE = chisq_stat(HWE_results.T)
     df_HWE = HWE_results.shape[1] - 1 - 1
@@ -193,4 +194,3 @@ if uploaded_file is not None:
     OR_results = OR(tabela)
     or_df = pd.DataFrame(OR_results, columns=["Genotyp 1", "Genotyp 2", "Odds Ratio"])
     st.write(or_df)
-
